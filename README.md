@@ -15,7 +15,7 @@ Proyek sistem pemberi pakan ikan hias otomatis berbasis ESP32 yang dilengkapi pe
 ## Teknologi
   • Mikrokontroler: ESP32
 
-  • Pemrograman: Arduino framework
+  • Bahasa Pemrograman: C++ (Arduino framework)
 
   • Platform IoT: Blynk
   
