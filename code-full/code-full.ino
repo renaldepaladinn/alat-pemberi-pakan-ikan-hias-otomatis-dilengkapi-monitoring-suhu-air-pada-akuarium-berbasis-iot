@@ -17,9 +17,9 @@ class AutoFeeder {
 private:
   const char* ssid = "  "; // Sesuaikan dengan proyek anda
   const char* pass = "  "; // Sesuaikan dengan proyek anda
-  const int servoPin = 13;
-  const int oneWireBus = 4;
-  const int ledBlynk = V4;
+  const int servoPin = 13; // Sesuaikan dengan proyek anda
+  const int oneWireBus = 4; // Sesuaikan dengan proyek anda
+  const int ledBlynk = V4; // Sesuaikan dengan proyek anda
 
   OneWire oneWire;
   DallasTemperature sensors;
@@ -64,15 +64,15 @@ private:
                      (month() < 10 ? "0" : "") + String(month()) + "/" +
                      String(year());
 
-    Blynk.virtualWrite(V1, jam);
-    Blynk.virtualWrite(V2, tanggal);
+    Blynk.virtualWrite(V1, jam); // Sesuaikan dengan proyek anda
+    Blynk.virtualWrite(V2, tanggal); // Sesuaikan dengan proyek anda
     Serial.println("Jam: " + jam + " | Tanggal: " + tanggal);
   }
 
   void sendTemperatureToBlynk() {
     sensors.requestTemperatures();
     float tempC = sensors.getTempCByIndex(0);
-    Blynk.virtualWrite(V3, tempC);
+    Blynk.virtualWrite(V3, tempC); // Sesuaikan dengan proyek anda
     Serial.println("Suhu Air: " + String(tempC) + " °C");
 
     String status;
@@ -86,7 +86,7 @@ private:
       status = "Suhu Air Dingin";
     }
     Serial.println("Update status suhu: " + status);
-    Blynk.virtualWrite(V5, status);
+    Blynk.virtualWrite(V5, status); // Sesuaikan dengan proyek anda
   }
 
   void beriPakan() {
