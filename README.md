@@ -18,4 +18,8 @@ Proyek sistem pemberi pakan ikan hias otomatis berbasis ESP32 yang dilengkapi pe
   • Bahasa Pemrograman: C++ (Arduino framework)
 
   • Platform IoT: Blynk
-  
+
+## Keterangan Proyek
+Proyek Mata Kuliah Antarmuka Mikrokontroler dan IoT
+
+Tanggal Proyek Selesai: 2 Juni 2025
