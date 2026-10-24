@@ -3,7 +3,7 @@ Proyek sistem pemberi pakan ikan hias otomatis berbasis ESP32 yang dilengkapi pe
 
 ## Fitur
   • Pemantauan suhu air akuarium menggunakan sensor DS18B20.
-  •	Monitoring suhu secara real-time melalui platform Blynk.
+  • Monitoring suhu secara real-time melalui platform Blynk.
   •	Indikator kondisi suhu air: panas, hangat, normal, atau dingin.
   •	Pemberian pakan ikan otomatis sesuai jadwal.
   •	Pengaturan waktu pemberian pakan menggunakan fitur RTC pada Blynk.
